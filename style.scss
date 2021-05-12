@@ -1,0 +1,1871 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+
+body{
+    overflow-x: hidden;
+    
+    
+}
+::-webkit-scrollbar{
+    background-color: rgb(180, 180, 180);
+}
+::-webkit-scrollbar-thumb{
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(155, 155, 155);
+    width: 10px;
+}
+.dark-mode{
+
+    
+
+    #navbar{
+        background-color: #2d3748;
+        h1,a,i{
+            color: white !important;
+        }
+        input{
+            background-color: #718096 !important;
+            &::placeholder{
+                color: white !important;
+            }
+        }
+        #dark{
+            background-color: white;
+            color: rgb(26, 26, 26);
+        }
+    }
+    #sec1{
+        background-color: #1a202c;
+        h1,p,button{
+            color: rgb(230, 230, 230) !important;
+        }
+        .right .text{
+            background-color: #2d3748;
+
+          h4,i{
+              color: rgb(236, 236, 236);
+          }
+        }
+        
+    }
+
+    #sec2{
+        background-color: #1a202c;
+    }
+    #sec3{
+        background-color: #1a202c;
+        p{
+            color: white !important;
+        }
+    }
+    #sec4{
+        background-color: #1a202c;
+        h3{
+            color: white !important;
+        }
+        #kart{
+            background-color: #2d3748;
+            h5,i,p,a{
+                color: rgb(240, 240, 240) !important;
+            }
+        }
+    }
+    #sec5{
+        background-color: #1a202c;
+        h3{
+            color: white !important;
+        }
+
+        #kart{
+            background-color: #2d3748;
+            h5,i,p,a{
+                color: rgb(240, 240, 240) !important;
+            }
+        }
+
+    }
+    #sec6{
+        background-color: #1a202c;
+        h3{
+            color: white !important;
+        }
+        #kart{
+            background-color: #2d3748;
+            h5,i,p,a{
+                color: rgb(240, 240, 240) !important;
+            }
+        }
+        
+    }
+    #sec7{
+        background-color: #1a202c;
+        h3{
+            color: white !important;
+        }
+        #kart{
+            background-color: #2d3748;
+            h5,i,p,a{
+                color: rgb(240, 240, 240) !important;
+            }
+        }
+    }
+    #sec8{
+        background-color: #1a202c;
+        h3,h1,p{
+            color: white !important;
+        }
+        input{
+            background-color: #859abb !important;
+            &::placeholder{
+                color: white !important;
+            }
+        }
+    }
+    footer{
+        background-color: #1a202c;
+
+       
+
+        h1{
+            color: rgb(219, 219, 219);
+        }
+        
+    }
+
+
+
+
+
+}
+
+
+ul,ol{
+    list-style-type: none;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             N A V B A R
+----------------------------------------------------------------------------------------------------------------- */
+
+
+
+#navbar{
+    
+    .top{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .search{
+        position: relative;
+
+        i{
+            position: absolute;
+            top: 30%;
+            left: 7%;
+            font-size: 20px;
+            color: rgb(133, 130, 130);
+        
+        }
+        input{
+            outline: none;
+            border: none;
+            border: 1px solid rgba(0, 0, 0, 0.089);
+            padding: 9px 35px;
+            width: 140%;
+            background-color: rgb(231, 231, 231);
+
+            &::placeholder{
+                position: relative;
+                left: 30% !important;
+                
+            }
+        }
+    }
+ 
+    a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.747);
+        padding: 0 15px;
+        font-size: 18px;
+        font-weight: 600;
+    
+    }
+
+    .menu{
+        button{
+            border: none;
+            outline: none;
+            padding: 7px 20px;
+            background-color: rgb(17, 16, 16);
+            color: white;
+            border-radius: 7px;
+
+        }
+    }
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 1 
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec1{
+
+    .left{
+        position: relative;
+        top: 27%;
+        left: 15%;
+        width: 110%;
+        
+        h1{
+            font-family: 'Roboto', sans-serif ;
+            font-size: 50px;
+            letter-spacing: 2px;
+            color: #2d3748;
+        }
+        p{
+            font-size: 20px;
+        }
+        button{
+            border: none;
+            outline: none;
+            padding: 12px 40px;
+            border-radius: 30px;
+            background-color: #667eea;
+            color: rgb(255, 239, 239);
+            font-weight: bold;
+        }
+        .button2{
+            border: 3px solid #667eea;
+            background-color: transparent;
+            color: rgb(90, 88, 88);
+            padding: 10px 40px;
+            font-weight: bold;
+        }
+        
+        
+    }
+
+
+    .right{
+        font-family: 'Roboto', sans-serif ;
+        position: relative;
+        bottom:0%;
+        right: 12%;
+
+        i{
+            font-size: 3.5em;
+            color: rgb(53, 53, 53);
+            padding: 20px 20px 0 20px;
+        }
+
+
+        img{
+            color: black;
+            position: relative;
+            
+        }
+
+        .text{
+            position: absolute;
+            display: flex;
+            left: 30%;
+            bottom: 14%;
+            background-color: #edf2f7;
+            height: 100px;
+            width: 500px;
+            border-radius: 20px;
+            
+
+            h4{
+                padding: 20px 10px 0 20px;
+
+            }
+
+        }
+    }
+
+
+
+
+
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 2
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec2{
+    padding: 30px 0;
+   
+    .wrapper{
+        width: 100%;
+
+        .karousel{
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 30px;
+
+            .kart{
+                line-height: 250px;
+                width: 350px;
+                height: 300px;
+                text-align: center;
+                color: #fff;
+                font-size: 90px;
+                font-weight: 600;
+                border-radius: 10px;
+                margin: 20px 0px;
+                box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+                cursor: pointer;
+                transition: 0.6s;
+                &:hover{
+                    transform: scale(1.1);
+                    box-shadow: 0px 5px 10px rgba(0,0,0,0.6s);
+                }
+                
+            
+            }
+        }
+    }
+
+
+    .kart-1{
+        position: relative;
+        background-color:   #2957c1 !important;
+
+        i{
+            position: absolute;
+            z-index: 1;
+            font-size: 200px;
+            opacity: 0.4;
+            top: 15%;
+            right: 13%;
+        }
+        
+    img{
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        width: 15%;
+    }
+
+    h1{
+        position: relative;
+        left: 10%;
+        top: 20%;
+        font-size: 30px;
+        text-align: start   ;
+        width: 85%;
+    }
+
+        .text{
+            position: absolute;
+            z-index: 2;
+            top: 74%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            height: 100%;
+
+            h5:nth-child(1){
+                font-size: 16px;
+                color: white;
+            }
+            h5:nth-child(2){
+                font-size: 14px;
+                color: rgb(184, 184, 184);
+            }
+            
+
+
+        }
+    }
+    
+
+    .kart-2{
+        position: relative;
+        background-color:  #603390 !important;
+
+        .img{
+            position: absolute;
+            width:58%;
+            z-index: 1;
+            opacity: 0.5;
+            top: 10%;
+        
+        }
+        
+    img{
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        width: 15%;
+    }
+
+    h1{
+        position: relative;
+        left: 10%;
+        top: 20%;
+        font-size: 30px;
+        text-align: start   ;
+        width: 85%;
+        z-index: 4;
+    }
+
+        .text{
+            position: absolute;
+            z-index: 2;
+            top: 74%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            height: 100%;
+            
+
+            h5:nth-child(1){
+                font-size: 16px;
+                color: white;
+            }
+            h5:nth-child(2){
+                font-size: 14px;
+                color: rgb(184, 184, 184);
+            }
+            
+
+
+        }
+    }
+
+
+    .kart-3{
+        position: relative;
+            background-color: #ecc94b;
+            
+
+        i{
+            position: absolute;
+            z-index: 1;
+            font-size: 200px;
+            opacity: 0.4;
+            top: 15%;
+            right: 13%;
+            color: rgb(252, 252, 252);
+        }
+        
+    img{
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        width: 15%;
+    }
+
+    h1{
+        position: relative;
+        left: 10%;
+        top: 20%;
+        font-size: 30px;
+        text-align: start   ;
+        width: 85%;
+    }
+
+        .text{
+            position: absolute;
+            z-index: 2;
+            top: 74%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            height: 100%;
+
+            h5:nth-child(1){
+                font-size: 16px;
+                color: white;
+            }
+            h5:nth-child(2){
+                font-size: 14px;
+                color: rgb(184, 184, 184);
+            }
+            
+
+
+        }
+    }
+
+
+
+    .kart-4{
+        position: relative;
+            background-color: #3b7ab0;
+            
+
+        i{
+            position: absolute;
+            z-index: 1;
+            font-size: 200px;
+            opacity: 0.4;
+            top: 15%;
+            right: 13%;
+            color: rgb(252, 252, 252);
+        }
+        
+    img{
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        width: 15%;
+    }
+
+    h1{
+        position: relative;
+        left: 10%;
+        top: 20%;
+        font-size: 30px;
+        text-align: start   ;
+        width: 85%;
+    }
+
+        .text{
+            position: absolute;
+            z-index: 2;
+            top: 74%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            height: 100%;
+
+            h5:nth-child(1){
+                font-size: 16px;
+                color: white;
+            }
+            h5:nth-child(2){
+                font-size: 14px;
+                color: rgb(184, 184, 184);
+            }
+            
+
+
+        }
+    }
+
+
+    .owl-stage{
+        height: 350px;
+    }
+
+  
+
+
+
+
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 3
+----------------------------------------------------------------------------------------------------------------- */
+
+
+#sec3{
+
+    .text{
+        position: relative;
+        top: 30%;
+        width: 110%;
+
+        
+        h1{
+            font-family: 'Roboto', sans-serif ;
+            font-size: 50px;
+            color: #667eea;
+            letter-spacing: 1px;
+        }
+
+        p{
+          font-size: 23px;
+          color: rgb(61, 61, 61);
+          width: 90%;
+        }
+        h5{
+            font-weight: bold;
+            font-size: 23px;
+        }
+        
+        
+    }
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 4
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec4{
+
+    #kart{
+        position: relative;
+        width: 130%;
+        height: 120%;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+            transform: translateY(-10px);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+        }
+        
+
+        .left{
+            position: relative ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100;
+            width: 65%;
+            background-color: hsl(222, 85%, 54%);
+            border-radius: 15px;
+
+            i{
+                font-size: 60px;
+                color: white;
+                margin-bottom: 5px;
+            }
+            h5{
+                font-size: 20px;
+                color:white;
+            }
+        }
+
+        .right{
+            position: relative;
+
+            a{
+                border-radius: 7px;
+                font-size: 13px;
+                font-weight: bold;
+                padding: 6px 17px;
+                margin-bottom: 5px;
+            }
+            h5{
+                font-weight: bold;
+                color: rgb(61, 61, 61);
+            }
+            p{
+                color: black;
+            }
+            
+        }
+
+        
+    }
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 5
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec5{
+
+    #kart{
+        position: relative;
+        width: 130%;
+        height: 120%;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+            transform: translateY(-10px);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+        }
+        
+
+        .left{
+            position: relative ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100;
+            width: 65%;
+            background-color:#633195;
+            border-radius: 15px;
+
+            i{
+                font-size: 60px;
+                color: white;
+                margin-bottom: 5px;
+            }
+            h5{
+                font-size: 20px;
+                color:white;
+            }
+        }
+
+        .right{
+            position: relative;
+
+            a{
+                border-radius: 7px;
+                font-size: 13px;
+                font-weight: bold;
+                padding: 6px 17px;
+                margin-bottom: 5px;
+                background-color: #633195;
+                border: none;
+                outline:none  ;
+
+            }
+            h5{
+                font-weight: bold;
+                color: rgb(61, 61, 61);
+            }
+            p{
+                color: black;
+            }
+            
+        }
+
+        
+    }
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 6
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec6{
+
+    #kart{
+        position: relative;
+        width: 130%;
+        height: 120%;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+            transform: translateY(-10px);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+        }
+        
+
+        .left{
+            position: relative ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100;
+            width: 65%;
+            background-color: #ecc94b;
+            border-radius: 15px;
+
+            i{
+                font-size: 50px;
+                color: rgb(77, 77, 77);
+                margin-bottom: 5px;
+            }
+            h5{
+                font-size: 20px;
+                color:white;
+            }
+        }
+
+        .right{
+            position: relative;
+
+            a{
+                border-radius: 7px;
+                font-size: 13px;
+                font-weight: bold;
+                padding: 6px 17px;
+                margin-bottom: 5px;
+            background-color: #ecc94b;
+            border: none;
+
+            
+            }
+            h5{
+                font-weight: bold;
+                color: rgb(61, 61, 61);
+            }
+            p{
+                color: black;
+            }
+            
+        }
+
+        
+    }
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 7
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec7{
+
+    #kart{
+        position: relative;
+        width: 130%;
+        border-radius: 15px;
+        height: 120%;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover{
+            transform: translateY(-10px);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+        }
+        
+
+        .left{
+            position: relative ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100;
+            width: 65%;
+            background-color: #4198e1   ;
+            border-radius: 15px;
+
+            i{
+                font-size: 60px;
+                color: white;
+                margin-bottom: 5px;
+            }
+            h5{
+                font-size: 20px;
+                color:white;
+            }
+        }
+
+        .right{
+            position: relative;
+
+            a{
+                border-radius: 7px;
+                font-size: 13px;
+                font-weight: bold;
+                padding: 6px 17px;
+                margin-bottom: 5px;
+                background-color: #4198e1   ;
+                border: none;
+                outline: none;
+
+            }
+            h5{
+                font-weight: bold;
+                color: rgb(61, 61, 61);
+            }
+            p{
+                color: black;
+            }
+            
+        }
+
+        
+    }
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 8
+----------------------------------------------------------------------------------------------------------------- */
+
+
+
+    
+    #sec8{
+        
+        
+
+
+        .form{
+            position: relative;
+            top: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 15px;
+
+            h1{
+                color: black;
+                font-size: 28px;
+                margin-bottom: 15px;
+
+            }
+            p{
+                margin-bottom: 40px;
+                font-size: 20px;
+            }
+            input{
+                width: 25%;
+                padding: 3px 10px;
+                background-color: rgb(226, 226, 226);
+                border: none;
+                border: 1px solid rgb(192, 192, 192);
+                margin-bottom: 20px;
+                outline: none;
+                border: none;
+
+            }
+            a{
+                text-decoration: none;
+                outline: none;
+                border: none;
+                color: white;
+                background-color: #667eea;
+                padding: 13px 50px;
+                border-radius: 30px;
+                margin-bottom: 20px;
+
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             F O O T E R
+----------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+footer{
+    background-color: rgb(20, 20, 26);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px){
+
+
+
+
+    
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             N A V B A R
+----------------------------------------------------------------------------------------------------------------- */
+
+
+
+#navbar{
+    
+    .top{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+
+
+        .logo h1{
+            font-size: 20px;
+            padding: 0 15px;
+        }
+        
+    }
+
+    .search{
+        position: relative;
+
+        i{
+            position: absolute;
+            top: 30%;
+            left: 7%;
+            font-size: 20px;
+            color: rgb(133, 130, 130);
+        
+        }
+        input{
+            outline: none;
+            border: none;
+            border: 1px solid rgba(0, 0, 0, 0.089);
+            padding: 9px 10px;
+            width: 100%;
+            background-color: rgb(231, 231, 231);
+
+            &::placeholder{
+                display: none !important;
+                padding-left: 1px !important;
+            }
+        }
+    }
+ 
+    a{
+        display: none;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.747);
+        padding: 0 15px;
+        font-size: 18px;
+        font-weight: 600;
+    
+    }
+
+    .menu{
+        button{
+            border: none;
+            outline: none;
+            padding: 7px 20px;
+            background-color: rgb(17, 16, 16);
+            color: white;
+            border-radius: 7px;
+            margin-top: 15px;
+
+        }
+    }
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 1 
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec1{
+    height: 500px;
+
+    .left{
+        position: relative;
+        top: 27%;
+        left: 15%;
+        width: 70%;
+        height: 120%;
+        
+        h1{
+            font-family: 'Roboto', sans-serif ;
+            font-size: 28px;
+            letter-spacing: 2px;
+            color: #2d3748;
+        }
+        p{
+            font-size: 15px;
+        }
+        button{
+            border: none;
+            outline: none;
+            padding: 12px 40px;
+            border-radius: 30px;
+            background-color: #667eea;
+            color: rgb(255, 239, 239);
+            font-weight: bold;
+        }
+        .button2{
+            border: 3px solid #667eea;
+            background-color: transparent;
+            color: rgb(90, 88, 88);
+            padding: 10px 40px;
+            font-weight: bold;
+        }
+        
+        
+    }
+
+
+    .right{
+        display: none;
+        font-family: 'Roboto', sans-serif ;
+        position: relative;
+        bottom:0%;
+        right: 12%;
+
+        i{
+            font-size: 3.5em;
+            color: rgb(53, 53, 53);
+            padding: 20px 20px 0 20px;
+        }
+
+
+        img{
+            color: black;
+            position: relative;
+            
+        }
+
+        .text{
+            position: absolute;
+            display: flex;
+            left: 30%;
+            bottom: 14%;
+            background-color: #edf2f7;
+            height: 100px;
+            width: 500px;
+            border-radius: 20px;
+            
+
+            h4{
+                padding: 20px 10px 0 20px;
+
+            }
+
+        }
+    }
+
+
+
+
+
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 2
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec2{
+    padding: 30px 0;
+   
+    .wrapper{
+        width: 100%;
+
+        .karousel{
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 30px;
+
+            .kart{
+                line-height: 250px;
+                width: 350px;
+                height: 300px;
+                text-align: center;
+                color: #fff;
+                font-size: 90px;
+                font-weight: 600;
+                border-radius: 10px;
+                margin: 20px 0px;
+                box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+                cursor: pointer;
+                transition: 0.6s;
+                &:hover{
+                    transform: scale(1.1);
+                    box-shadow: 0px 5px 10px rgba(0,0,0,0.6s);
+                }
+                
+            
+            }
+        }
+    }
+
+
+    .kart-1{
+        position: relative;
+        background-color:   #2957c1 !important;
+
+        i{
+            position: absolute;
+            z-index: 1;
+            font-size: 200px;
+            opacity: 0.4;
+            top: 15%;
+            right: 13%;
+        }
+        
+    img{
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        width: 15%;
+    }
+
+    h1{
+        position: relative;
+        left: 10%;
+        top: 20%;
+        font-size: 30px;
+        text-align: start   ;
+        width: 85%;
+    }
+
+        .text{
+            position: absolute;
+            z-index: 2;
+            top: 74%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            height: 100%;
+
+            h5:nth-child(1){
+                font-size: 16px;
+                color: white;
+            }
+            h5:nth-child(2){
+                font-size: 14px;
+                color: rgb(184, 184, 184);
+            }
+            
+
+
+        }
+    }
+    
+
+    .kart-2{
+        position: relative;
+        background-color:  #603390 !important;
+
+        .img{
+            position: absolute;
+            width:58%;
+            z-index: 1;
+            opacity: 0.5;
+            top: 10%;
+        
+        }
+        
+    img{
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        width: 15%;
+    }
+
+    h1{
+        position: relative;
+        left: 10%;
+        top: 20%;
+        font-size: 30px;
+        text-align: start   ;
+        width: 85%;
+        z-index: 4;
+    }
+
+        .text{
+            position: absolute;
+            z-index: 2;
+            top: 74%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            height: 100%;
+            
+
+            h5:nth-child(1){
+                font-size: 16px;
+                color: white;
+            }
+            h5:nth-child(2){
+                font-size: 14px;
+                color: rgb(184, 184, 184);
+            }
+            
+
+
+        }
+    }
+
+
+    .kart-3{
+        position: relative;
+            background-color: #ecc94b;
+            
+
+        i{
+            position: absolute;
+            z-index: 1;
+            font-size: 200px;
+            opacity: 0.4;
+            top: 15%;
+            right: 13%;
+            color: rgb(252, 252, 252);
+        }
+        
+    img{
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        width: 15%;
+    }
+
+    h1{
+        position: relative;
+        left: 10%;
+        top: 20%;
+        font-size: 30px;
+        text-align: start   ;
+        width: 85%;
+    }
+
+        .text{
+            position: absolute;
+            z-index: 2;
+            top: 74%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            height: 100%;
+
+            h5:nth-child(1){
+                font-size: 16px;
+                color: white;
+            }
+            h5:nth-child(2){
+                font-size: 14px;
+                color: rgb(184, 184, 184);
+            }
+            
+
+
+        }
+    }
+
+
+
+    .kart-4{
+        position: relative;
+            background-color: #3b7ab0;
+            
+
+        i{
+            position: absolute;
+            z-index: 1;
+            font-size: 200px;
+            opacity: 0.4;
+            top: 15%;
+            right: 13%;
+            color: rgb(252, 252, 252);
+        }
+        
+    img{
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        width: 15%;
+    }
+
+    h1{
+        position: relative;
+        left: 10%;
+        top: 20%;
+        font-size: 30px;
+        text-align: start   ;
+        width: 85%;
+    }
+
+        .text{
+            position: absolute;
+            z-index: 2;
+            top: 74%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            width: 90%;
+            height: 100%;
+
+            h5:nth-child(1){
+                font-size: 16px;
+                color: white;
+            }
+            h5:nth-child(2){
+                font-size: 14px;
+                color: rgb(184, 184, 184);
+            }
+            
+
+
+        }
+    }
+
+
+    .owl-stage{
+        height: 350px;
+    }
+
+  
+
+
+
+
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 3
+----------------------------------------------------------------------------------------------------------------- */
+
+
+#sec3{
+
+    img{
+        position: relative;
+        width: 80%;
+        left: 10%;
+    }
+
+    .text{
+        position: relative;
+        top: 30%;
+        width: 110%;
+        padding: 0 20px;
+
+        
+        h1{
+            font-family: 'Roboto', sans-serif ;
+            font-size: 40px;
+            color: #667eea;
+            letter-spacing: 1px;
+        }
+
+        p{
+          font-size: 17px;
+          color: rgb(61, 61, 61);
+          width: 90%;
+        }
+        h5{
+            font-weight: bold;
+            font-size: 17px;
+        }
+        
+        
+    }
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 4
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec4{
+
+    #kart{
+        position: relative;
+        height: 90%;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+        padding: 0 10px;
+        padding: 0 10px;
+        width: 300px !important;
+
+        &:hover{
+            transform: translateY(-10px);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+        }
+        
+
+        .left{
+            position: relative ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100;
+            width: 65%;
+            background-color: hsl(222, 85%, 54%);
+            border-radius: 15px;
+
+            i{
+                font-size: 60px;
+                color: white;
+                margin-bottom: 5px;
+            }
+            h5{
+                font-size: 20px;
+                color:white;
+            }
+        }
+
+        .right{
+            position: relative;
+
+            a{
+                border-radius: 7px;
+                font-size: 13px;
+                font-weight: bold;
+                padding: 6px 10px;
+                margin-bottom: 5px;
+            }
+            h5{
+                width: 90%;
+                font-weight: bold;
+                color: rgb(61, 61, 61);
+                font-size: 15px;
+            }
+            p{
+                color: black;
+            }
+            
+        }
+
+        
+    }
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 5
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec5{
+
+    #kart{
+        position: relative;
+        width: 130%;
+        height: 95%;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+        padding: 0 10px;
+        width: 300px !important;
+
+        &:hover{
+            transform: translateY(-10px);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+        }
+        
+
+        .left{
+            position: relative ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 70;
+            width: 90%;
+            background-color:#633195;
+            border-radius: 15px;
+
+            i{
+                font-size: 40px;
+                color: white;
+                margin-bottom: 5px;
+            }
+            h5{
+                font-size: 17px;
+                color:white;
+            }
+        }
+
+        .right{
+            position: relative;
+
+            a{
+                border-radius: 7px;
+                font-size: 13px;
+                font-weight: bold;
+                padding: 6px 17px;
+                margin-bottom: 5px;
+                background-color: #633195;
+                border: none;
+                outline:none  ;
+
+            }
+            h5{
+                font-weight: bold;
+                color: rgb(61, 61, 61);
+            }
+            p{
+                color: black;
+            }
+            
+        }
+
+        
+    }
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 6
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec6{
+
+    #kart{
+        position: relative;
+        width: 130%;
+        height: 95%;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+        padding: 0 10px;
+        width: 300px !important;
+        
+
+        &:hover{
+            transform: translateY(-10px);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+        }
+        
+
+        .left{
+            position: relative ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100;
+            width: 95%;
+            background-color: #ecc94b;
+            border-radius: 15px;
+
+            i{
+                font-size: 30px;
+                color: rgb(77, 77, 77);
+                margin-bottom: 5px;
+            }
+            h5{
+                font-size: 17px;
+                color:white;
+            }
+        }
+
+        .right{
+            position: relative;
+
+            a{
+                border-radius: 7px;
+                font-size: 13px;
+                font-weight: bold;
+                padding: 6px 17px;
+                margin-bottom: 5px;
+            background-color: #ecc94b;
+            border: none;
+
+            
+            }
+            h5{
+                font-weight: bold;
+                color: rgb(61, 61, 61);
+            }
+            p{
+                color: black;
+            }
+            
+        }
+
+        
+    }
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 7
+----------------------------------------------------------------------------------------------------------------- */
+
+#sec7{
+
+    #kart{
+        position: relative;
+        width: 130%;
+        border-radius: 15px;
+        height:95%;
+        cursor: pointer;
+        transition: 0.5s;
+        padding: 0 10px;
+        width: 300px !important;
+
+        &:hover{
+            transform: translateY(-10px);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+        }
+        
+
+        .left{
+            position: relative ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100;
+            width: 95%;
+            background-color: #4198e1   ;
+            border-radius: 15px;
+
+            i{
+                font-size: 40px;
+                color: white;
+                margin-bottom: 5px;
+            }
+            h5{
+                font-size: 17px;
+                color:white;
+            }
+        }
+
+        .right{
+            position: relative;
+
+            a{
+                border-radius: 7px;
+                font-size: 13px;
+                font-weight: bold;
+                padding: 6px 17px;
+                margin-bottom: 5px;
+                background-color: #4198e1   ;
+                border: none;
+                outline: none;
+
+            }
+            h5{
+                font-weight: bold;
+                color: rgb(61, 61, 61);
+            }
+            p{
+                color: black;
+            }
+            
+        }
+
+        
+    }
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 8
+----------------------------------------------------------------------------------------------------------------- */
+
+
+
+    
+    #sec8{
+
+
+        .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+
+            h1{
+                color: black;
+                font-size: 28px;
+                margin-bottom: 15px;
+
+            }
+            p{
+                margin-bottom: 40px;
+                font-size: 20px;
+            }
+            input{
+                width: 25%;
+                padding: 3px 10px;
+                background-color: rgb(226, 226, 226);
+                border: none;
+                border: 1px solid rgb(192, 192, 192);
+                margin-bottom: 20px;
+                outline: none;
+                border: none;
+
+            }
+            a{
+                text-decoration: none;
+                outline: none;
+                border: none;
+                color: white;
+                background-color: #667eea;
+                padding: 13px 50px;
+                border-radius: 30px;
+                margin-bottom: 20px;
+
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,1758 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  background-color: #b4b4b4;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 40px;
+  border-radius: 10px;
+  background-color: #9b9b9b;
+  width: 10px;
+}
+
+.dark-mode #navbar {
+  background-color: #2d3748;
+}
+
+.dark-mode #navbar h1, .dark-mode #navbar a, .dark-mode #navbar i {
+  color: white !important;
+}
+
+.dark-mode #navbar input {
+  background-color: #718096 !important;
+}
+
+.dark-mode #navbar input::-webkit-input-placeholder {
+  color: white !important;
+}
+
+.dark-mode #navbar input:-ms-input-placeholder {
+  color: white !important;
+}
+
+.dark-mode #navbar input::-ms-input-placeholder {
+  color: white !important;
+}
+
+.dark-mode #navbar input::placeholder {
+  color: white !important;
+}
+
+.dark-mode #navbar #dark {
+  background-color: white;
+  color: #1a1a1a;
+}
+
+.dark-mode #sec1 {
+  background-color: #1a202c;
+}
+
+.dark-mode #sec1 h1, .dark-mode #sec1 p, .dark-mode #sec1 button {
+  color: #e6e6e6 !important;
+}
+
+.dark-mode #sec1 .right .text {
+  background-color: #2d3748;
+}
+
+.dark-mode #sec1 .right .text h4, .dark-mode #sec1 .right .text i {
+  color: #ececec;
+}
+
+.dark-mode #sec2 {
+  background-color: #1a202c;
+}
+
+.dark-mode #sec3 {
+  background-color: #1a202c;
+}
+
+.dark-mode #sec3 p {
+  color: white !important;
+}
+
+.dark-mode #sec4 {
+  background-color: #1a202c;
+}
+
+.dark-mode #sec4 h3 {
+  color: white !important;
+}
+
+.dark-mode #sec4 #kart {
+  background-color: #2d3748;
+}
+
+.dark-mode #sec4 #kart h5, .dark-mode #sec4 #kart i, .dark-mode #sec4 #kart p, .dark-mode #sec4 #kart a {
+  color: #f0f0f0 !important;
+}
+
+.dark-mode #sec5 {
+  background-color: #1a202c;
+}
+
+.dark-mode #sec5 h3 {
+  color: white !important;
+}
+
+.dark-mode #sec5 #kart {
+  background-color: #2d3748;
+}
+
+.dark-mode #sec5 #kart h5, .dark-mode #sec5 #kart i, .dark-mode #sec5 #kart p, .dark-mode #sec5 #kart a {
+  color: #f0f0f0 !important;
+}
+
+.dark-mode #sec6 {
+  background-color: #1a202c;
+}
+
+.dark-mode #sec6 h3 {
+  color: white !important;
+}
+
+.dark-mode #sec6 #kart {
+  background-color: #2d3748;
+}
+
+.dark-mode #sec6 #kart h5, .dark-mode #sec6 #kart i, .dark-mode #sec6 #kart p, .dark-mode #sec6 #kart a {
+  color: #f0f0f0 !important;
+}
+
+.dark-mode #sec7 {
+  background-color: #1a202c;
+}
+
+.dark-mode #sec7 h3 {
+  color: white !important;
+}
+
+.dark-mode #sec7 #kart {
+  background-color: #2d3748;
+}
+
+.dark-mode #sec7 #kart h5, .dark-mode #sec7 #kart i, .dark-mode #sec7 #kart p, .dark-mode #sec7 #kart a {
+  color: #f0f0f0 !important;
+}
+
+.dark-mode #sec8 {
+  background-color: #1a202c;
+}
+
+.dark-mode #sec8 h3, .dark-mode #sec8 h1, .dark-mode #sec8 p {
+  color: white !important;
+}
+
+.dark-mode #sec8 input {
+  background-color: #859abb !important;
+}
+
+.dark-mode #sec8 input::-webkit-input-placeholder {
+  color: white !important;
+}
+
+.dark-mode #sec8 input:-ms-input-placeholder {
+  color: white !important;
+}
+
+.dark-mode #sec8 input::-ms-input-placeholder {
+  color: white !important;
+}
+
+.dark-mode #sec8 input::placeholder {
+  color: white !important;
+}
+
+.dark-mode footer {
+  background-color: #1a202c;
+}
+
+.dark-mode footer h1 {
+  color: #dbdbdb;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             N A V B A R
+----------------------------------------------------------------------------------------------------------------- */
+#navbar .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .search {
+  position: relative;
+}
+
+#navbar .search i {
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  font-size: 20px;
+  color: #858282;
+}
+
+#navbar .search input {
+  outline: none;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.089);
+  padding: 9px 35px;
+  width: 140%;
+  background-color: #e7e7e7;
+}
+
+#navbar .search input::-webkit-input-placeholder {
+  position: relative;
+  left: 30% !important;
+}
+
+#navbar .search input:-ms-input-placeholder {
+  position: relative;
+  left: 30% !important;
+}
+
+#navbar .search input::-ms-input-placeholder {
+  position: relative;
+  left: 30% !important;
+}
+
+#navbar .search input::placeholder {
+  position: relative;
+  left: 30% !important;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.747);
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#navbar .menu button {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  background-color: #111010;
+  color: white;
+  border-radius: 7px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 1 
+----------------------------------------------------------------------------------------------------------------- */
+#sec1 .left {
+  position: relative;
+  top: 27%;
+  left: 15%;
+  width: 110%;
+}
+
+#sec1 .left h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #2d3748;
+}
+
+#sec1 .left p {
+  font-size: 20px;
+}
+
+#sec1 .left button {
+  border: none;
+  outline: none;
+  padding: 12px 40px;
+  border-radius: 30px;
+  background-color: #667eea;
+  color: #ffefef;
+  font-weight: bold;
+}
+
+#sec1 .left .button2 {
+  border: 3px solid #667eea;
+  background-color: transparent;
+  color: #5a5858;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
+#sec1 .right {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  bottom: 0%;
+  right: 12%;
+}
+
+#sec1 .right i {
+  font-size: 3.5em;
+  color: #353535;
+  padding: 20px 20px 0 20px;
+}
+
+#sec1 .right img {
+  color: black;
+  position: relative;
+}
+
+#sec1 .right .text {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 30%;
+  bottom: 14%;
+  background-color: #edf2f7;
+  height: 100px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+#sec1 .right .text h4 {
+  padding: 20px 10px 0 20px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 2
+----------------------------------------------------------------------------------------------------------------- */
+#sec2 {
+  padding: 30px 0;
+}
+
+#sec2 .wrapper {
+  width: 100%;
+}
+
+#sec2 .wrapper .karousel {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+#sec2 .wrapper .karousel .kart {
+  line-height: 250px;
+  width: 350px;
+  height: 300px;
+  text-align: center;
+  color: #fff;
+  font-size: 90px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin: 20px 0px;
+  -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+#sec2 .wrapper .karousel .kart:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+#sec2 .kart-1 {
+  position: relative;
+  background-color: #2957c1 !important;
+}
+
+#sec2 .kart-1 i {
+  position: absolute;
+  z-index: 1;
+  font-size: 200px;
+  opacity: 0.4;
+  top: 15%;
+  right: 13%;
+}
+
+#sec2 .kart-1 img {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 15%;
+}
+
+#sec2 .kart-1 h1 {
+  position: relative;
+  left: 10%;
+  top: 20%;
+  font-size: 30px;
+  text-align: start;
+  width: 85%;
+}
+
+#sec2 .kart-1 .text {
+  position: absolute;
+  z-index: 2;
+  top: 74%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 100%;
+}
+
+#sec2 .kart-1 .text h5:nth-child(1) {
+  font-size: 16px;
+  color: white;
+}
+
+#sec2 .kart-1 .text h5:nth-child(2) {
+  font-size: 14px;
+  color: #b8b8b8;
+}
+
+#sec2 .kart-2 {
+  position: relative;
+  background-color: #603390 !important;
+}
+
+#sec2 .kart-2 .img {
+  position: absolute;
+  width: 58%;
+  z-index: 1;
+  opacity: 0.5;
+  top: 10%;
+}
+
+#sec2 .kart-2 img {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 15%;
+}
+
+#sec2 .kart-2 h1 {
+  position: relative;
+  left: 10%;
+  top: 20%;
+  font-size: 30px;
+  text-align: start;
+  width: 85%;
+  z-index: 4;
+}
+
+#sec2 .kart-2 .text {
+  position: absolute;
+  z-index: 2;
+  top: 74%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 100%;
+}
+
+#sec2 .kart-2 .text h5:nth-child(1) {
+  font-size: 16px;
+  color: white;
+}
+
+#sec2 .kart-2 .text h5:nth-child(2) {
+  font-size: 14px;
+  color: #b8b8b8;
+}
+
+#sec2 .kart-3 {
+  position: relative;
+  background-color: #ecc94b;
+}
+
+#sec2 .kart-3 i {
+  position: absolute;
+  z-index: 1;
+  font-size: 200px;
+  opacity: 0.4;
+  top: 15%;
+  right: 13%;
+  color: #fcfcfc;
+}
+
+#sec2 .kart-3 img {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 15%;
+}
+
+#sec2 .kart-3 h1 {
+  position: relative;
+  left: 10%;
+  top: 20%;
+  font-size: 30px;
+  text-align: start;
+  width: 85%;
+}
+
+#sec2 .kart-3 .text {
+  position: absolute;
+  z-index: 2;
+  top: 74%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 100%;
+}
+
+#sec2 .kart-3 .text h5:nth-child(1) {
+  font-size: 16px;
+  color: white;
+}
+
+#sec2 .kart-3 .text h5:nth-child(2) {
+  font-size: 14px;
+  color: #b8b8b8;
+}
+
+#sec2 .kart-4 {
+  position: relative;
+  background-color: #3b7ab0;
+}
+
+#sec2 .kart-4 i {
+  position: absolute;
+  z-index: 1;
+  font-size: 200px;
+  opacity: 0.4;
+  top: 15%;
+  right: 13%;
+  color: #fcfcfc;
+}
+
+#sec2 .kart-4 img {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 15%;
+}
+
+#sec2 .kart-4 h1 {
+  position: relative;
+  left: 10%;
+  top: 20%;
+  font-size: 30px;
+  text-align: start;
+  width: 85%;
+}
+
+#sec2 .kart-4 .text {
+  position: absolute;
+  z-index: 2;
+  top: 74%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 100%;
+}
+
+#sec2 .kart-4 .text h5:nth-child(1) {
+  font-size: 16px;
+  color: white;
+}
+
+#sec2 .kart-4 .text h5:nth-child(2) {
+  font-size: 14px;
+  color: #b8b8b8;
+}
+
+#sec2 .owl-stage {
+  height: 350px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 3
+----------------------------------------------------------------------------------------------------------------- */
+#sec3 .text {
+  position: relative;
+  top: 30%;
+  width: 110%;
+}
+
+#sec3 .text h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: #667eea;
+  letter-spacing: 1px;
+}
+
+#sec3 .text p {
+  font-size: 23px;
+  color: #3d3d3d;
+  width: 90%;
+}
+
+#sec3 .text h5 {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 4
+----------------------------------------------------------------------------------------------------------------- */
+#sec4 #kart {
+  position: relative;
+  width: 130%;
+  height: 120%;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#sec4 #kart:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#sec4 #kart .left {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100;
+  width: 65%;
+  background-color: #2662ed;
+  border-radius: 15px;
+}
+
+#sec4 #kart .left i {
+  font-size: 60px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#sec4 #kart .left h5 {
+  font-size: 20px;
+  color: white;
+}
+
+#sec4 #kart .right {
+  position: relative;
+}
+
+#sec4 #kart .right a {
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 17px;
+  margin-bottom: 5px;
+}
+
+#sec4 #kart .right h5 {
+  font-weight: bold;
+  color: #3d3d3d;
+}
+
+#sec4 #kart .right p {
+  color: black;
+}
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 5
+----------------------------------------------------------------------------------------------------------------- */
+#sec5 #kart {
+  position: relative;
+  width: 130%;
+  height: 120%;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#sec5 #kart:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#sec5 #kart .left {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100;
+  width: 65%;
+  background-color: #633195;
+  border-radius: 15px;
+}
+
+#sec5 #kart .left i {
+  font-size: 60px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#sec5 #kart .left h5 {
+  font-size: 20px;
+  color: white;
+}
+
+#sec5 #kart .right {
+  position: relative;
+}
+
+#sec5 #kart .right a {
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 17px;
+  margin-bottom: 5px;
+  background-color: #633195;
+  border: none;
+  outline: none;
+}
+
+#sec5 #kart .right h5 {
+  font-weight: bold;
+  color: #3d3d3d;
+}
+
+#sec5 #kart .right p {
+  color: black;
+}
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 6
+----------------------------------------------------------------------------------------------------------------- */
+#sec6 #kart {
+  position: relative;
+  width: 130%;
+  height: 120%;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#sec6 #kart:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#sec6 #kart .left {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100;
+  width: 65%;
+  background-color: #ecc94b;
+  border-radius: 15px;
+}
+
+#sec6 #kart .left i {
+  font-size: 50px;
+  color: #4d4d4d;
+  margin-bottom: 5px;
+}
+
+#sec6 #kart .left h5 {
+  font-size: 20px;
+  color: white;
+}
+
+#sec6 #kart .right {
+  position: relative;
+}
+
+#sec6 #kart .right a {
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 17px;
+  margin-bottom: 5px;
+  background-color: #ecc94b;
+  border: none;
+}
+
+#sec6 #kart .right h5 {
+  font-weight: bold;
+  color: #3d3d3d;
+}
+
+#sec6 #kart .right p {
+  color: black;
+}
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 7
+----------------------------------------------------------------------------------------------------------------- */
+#sec7 #kart {
+  position: relative;
+  width: 130%;
+  border-radius: 15px;
+  height: 120%;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#sec7 #kart:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#sec7 #kart .left {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100;
+  width: 65%;
+  background-color: #4198e1;
+  border-radius: 15px;
+}
+
+#sec7 #kart .left i {
+  font-size: 60px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#sec7 #kart .left h5 {
+  font-size: 20px;
+  color: white;
+}
+
+#sec7 #kart .right {
+  position: relative;
+}
+
+#sec7 #kart .right a {
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 17px;
+  margin-bottom: 5px;
+  background-color: #4198e1;
+  border: none;
+  outline: none;
+}
+
+#sec7 #kart .right h5 {
+  font-weight: bold;
+  color: #3d3d3d;
+}
+
+#sec7 #kart .right p {
+  color: black;
+}
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 8
+----------------------------------------------------------------------------------------------------------------- */
+#sec8 .form {
+  position: relative;
+  top: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+#sec8 .form h1 {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+#sec8 .form p {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+#sec8 .form input {
+  width: 25%;
+  padding: 3px 10px;
+  background-color: #e2e2e2;
+  border: none;
+  border: 1px solid silver;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+}
+
+#sec8 .form a {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #667eea;
+  padding: 13px 50px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------
+                                             F O O T E R
+----------------------------------------------------------------------------------------------------------------- */
+footer {
+  background-color: #14141a;
+  color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* --------------------------------------------------------------------------------------------------------------
+                                             N A V B A R
+----------------------------------------------------------------------------------------------------------------- */
+  #navbar .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 20px;
+  }
+  #navbar .top .logo h1 {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+  #navbar .search {
+    position: relative;
+  }
+  #navbar .search i {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    font-size: 20px;
+    color: #858282;
+  }
+  #navbar .search input {
+    outline: none;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    padding: 9px 10px;
+    width: 100%;
+    background-color: #e7e7e7;
+  }
+  #navbar .search input::-webkit-input-placeholder {
+    display: none !important;
+    padding-left: 1px !important;
+  }
+  #navbar .search input:-ms-input-placeholder {
+    display: none !important;
+    padding-left: 1px !important;
+  }
+  #navbar .search input::-ms-input-placeholder {
+    display: none !important;
+    padding-left: 1px !important;
+  }
+  #navbar .search input::placeholder {
+    display: none !important;
+    padding-left: 1px !important;
+  }
+  #navbar a {
+    display: none;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.747);
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  #navbar .menu button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background-color: #111010;
+    color: white;
+    border-radius: 7px;
+    margin-top: 15px;
+  }
+  /* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 1 
+----------------------------------------------------------------------------------------------------------------- */
+  #sec1 {
+    height: 500px;
+  }
+  #sec1 .left {
+    position: relative;
+    top: 27%;
+    left: 15%;
+    width: 70%;
+    height: 120%;
+  }
+  #sec1 .left h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #2d3748;
+  }
+  #sec1 .left p {
+    font-size: 15px;
+  }
+  #sec1 .left button {
+    border: none;
+    outline: none;
+    padding: 12px 40px;
+    border-radius: 30px;
+    background-color: #667eea;
+    color: #ffefef;
+    font-weight: bold;
+  }
+  #sec1 .left .button2 {
+    border: 3px solid #667eea;
+    background-color: transparent;
+    color: #5a5858;
+    padding: 10px 40px;
+    font-weight: bold;
+  }
+  #sec1 .right {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 0%;
+    right: 12%;
+  }
+  #sec1 .right i {
+    font-size: 3.5em;
+    color: #353535;
+    padding: 20px 20px 0 20px;
+  }
+  #sec1 .right img {
+    color: black;
+    position: relative;
+  }
+  #sec1 .right .text {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 30%;
+    bottom: 14%;
+    background-color: #edf2f7;
+    height: 100px;
+    width: 500px;
+    border-radius: 20px;
+  }
+  #sec1 .right .text h4 {
+    padding: 20px 10px 0 20px;
+  }
+  /* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 2
+----------------------------------------------------------------------------------------------------------------- */
+  #sec2 {
+    padding: 30px 0;
+  }
+  #sec2 .wrapper {
+    width: 100%;
+  }
+  #sec2 .wrapper .karousel {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+  }
+  #sec2 .wrapper .karousel .kart {
+    line-height: 250px;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 20px 0px;
+    -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  #sec2 .wrapper .karousel .kart:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+  #sec2 .kart-1 {
+    position: relative;
+    background-color: #2957c1 !important;
+  }
+  #sec2 .kart-1 i {
+    position: absolute;
+    z-index: 1;
+    font-size: 200px;
+    opacity: 0.4;
+    top: 15%;
+    right: 13%;
+  }
+  #sec2 .kart-1 img {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 15%;
+  }
+  #sec2 .kart-1 h1 {
+    position: relative;
+    left: 10%;
+    top: 20%;
+    font-size: 30px;
+    text-align: start;
+    width: 85%;
+  }
+  #sec2 .kart-1 .text {
+    position: absolute;
+    z-index: 2;
+    top: 74%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    height: 100%;
+  }
+  #sec2 .kart-1 .text h5:nth-child(1) {
+    font-size: 16px;
+    color: white;
+  }
+  #sec2 .kart-1 .text h5:nth-child(2) {
+    font-size: 14px;
+    color: #b8b8b8;
+  }
+  #sec2 .kart-2 {
+    position: relative;
+    background-color: #603390 !important;
+  }
+  #sec2 .kart-2 .img {
+    position: absolute;
+    width: 58%;
+    z-index: 1;
+    opacity: 0.5;
+    top: 10%;
+  }
+  #sec2 .kart-2 img {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 15%;
+  }
+  #sec2 .kart-2 h1 {
+    position: relative;
+    left: 10%;
+    top: 20%;
+    font-size: 30px;
+    text-align: start;
+    width: 85%;
+    z-index: 4;
+  }
+  #sec2 .kart-2 .text {
+    position: absolute;
+    z-index: 2;
+    top: 74%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    height: 100%;
+  }
+  #sec2 .kart-2 .text h5:nth-child(1) {
+    font-size: 16px;
+    color: white;
+  }
+  #sec2 .kart-2 .text h5:nth-child(2) {
+    font-size: 14px;
+    color: #b8b8b8;
+  }
+  #sec2 .kart-3 {
+    position: relative;
+    background-color: #ecc94b;
+  }
+  #sec2 .kart-3 i {
+    position: absolute;
+    z-index: 1;
+    font-size: 200px;
+    opacity: 0.4;
+    top: 15%;
+    right: 13%;
+    color: #fcfcfc;
+  }
+  #sec2 .kart-3 img {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 15%;
+  }
+  #sec2 .kart-3 h1 {
+    position: relative;
+    left: 10%;
+    top: 20%;
+    font-size: 30px;
+    text-align: start;
+    width: 85%;
+  }
+  #sec2 .kart-3 .text {
+    position: absolute;
+    z-index: 2;
+    top: 74%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    height: 100%;
+  }
+  #sec2 .kart-3 .text h5:nth-child(1) {
+    font-size: 16px;
+    color: white;
+  }
+  #sec2 .kart-3 .text h5:nth-child(2) {
+    font-size: 14px;
+    color: #b8b8b8;
+  }
+  #sec2 .kart-4 {
+    position: relative;
+    background-color: #3b7ab0;
+  }
+  #sec2 .kart-4 i {
+    position: absolute;
+    z-index: 1;
+    font-size: 200px;
+    opacity: 0.4;
+    top: 15%;
+    right: 13%;
+    color: #fcfcfc;
+  }
+  #sec2 .kart-4 img {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 15%;
+  }
+  #sec2 .kart-4 h1 {
+    position: relative;
+    left: 10%;
+    top: 20%;
+    font-size: 30px;
+    text-align: start;
+    width: 85%;
+  }
+  #sec2 .kart-4 .text {
+    position: absolute;
+    z-index: 2;
+    top: 74%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    height: 100%;
+  }
+  #sec2 .kart-4 .text h5:nth-child(1) {
+    font-size: 16px;
+    color: white;
+  }
+  #sec2 .kart-4 .text h5:nth-child(2) {
+    font-size: 14px;
+    color: #b8b8b8;
+  }
+  #sec2 .owl-stage {
+    height: 350px;
+  }
+  /* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 3
+----------------------------------------------------------------------------------------------------------------- */
+  #sec3 img {
+    position: relative;
+    width: 80%;
+    left: 10%;
+  }
+  #sec3 .text {
+    position: relative;
+    top: 30%;
+    width: 110%;
+    padding: 0 20px;
+  }
+  #sec3 .text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #667eea;
+    letter-spacing: 1px;
+  }
+  #sec3 .text p {
+    font-size: 17px;
+    color: #3d3d3d;
+    width: 90%;
+  }
+  #sec3 .text h5 {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  /* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 4
+----------------------------------------------------------------------------------------------------------------- */
+  #sec4 #kart {
+    position: relative;
+    height: 90%;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 0 10px;
+    padding: 0 10px;
+    width: 300px !important;
+  }
+  #sec4 #kart:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  #sec4 #kart .left {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100;
+    width: 65%;
+    background-color: #2662ed;
+    border-radius: 15px;
+  }
+  #sec4 #kart .left i {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  #sec4 #kart .left h5 {
+    font-size: 20px;
+    color: white;
+  }
+  #sec4 #kart .right {
+    position: relative;
+  }
+  #sec4 #kart .right a {
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 10px;
+    margin-bottom: 5px;
+  }
+  #sec4 #kart .right h5 {
+    width: 90%;
+    font-weight: bold;
+    color: #3d3d3d;
+    font-size: 15px;
+  }
+  #sec4 #kart .right p {
+    color: black;
+  }
+  /* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 5
+----------------------------------------------------------------------------------------------------------------- */
+  #sec5 #kart {
+    position: relative;
+    width: 130%;
+    height: 95%;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 0 10px;
+    width: 300px !important;
+  }
+  #sec5 #kart:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  #sec5 #kart .left {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 70;
+    width: 90%;
+    background-color: #633195;
+    border-radius: 15px;
+  }
+  #sec5 #kart .left i {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  #sec5 #kart .left h5 {
+    font-size: 17px;
+    color: white;
+  }
+  #sec5 #kart .right {
+    position: relative;
+  }
+  #sec5 #kart .right a {
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 17px;
+    margin-bottom: 5px;
+    background-color: #633195;
+    border: none;
+    outline: none;
+  }
+  #sec5 #kart .right h5 {
+    font-weight: bold;
+    color: #3d3d3d;
+  }
+  #sec5 #kart .right p {
+    color: black;
+  }
+  /* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 6
+----------------------------------------------------------------------------------------------------------------- */
+  #sec6 #kart {
+    position: relative;
+    width: 130%;
+    height: 95%;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 0 10px;
+    width: 300px !important;
+  }
+  #sec6 #kart:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  #sec6 #kart .left {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100;
+    width: 95%;
+    background-color: #ecc94b;
+    border-radius: 15px;
+  }
+  #sec6 #kart .left i {
+    font-size: 30px;
+    color: #4d4d4d;
+    margin-bottom: 5px;
+  }
+  #sec6 #kart .left h5 {
+    font-size: 17px;
+    color: white;
+  }
+  #sec6 #kart .right {
+    position: relative;
+  }
+  #sec6 #kart .right a {
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 17px;
+    margin-bottom: 5px;
+    background-color: #ecc94b;
+    border: none;
+  }
+  #sec6 #kart .right h5 {
+    font-weight: bold;
+    color: #3d3d3d;
+  }
+  #sec6 #kart .right p {
+    color: black;
+  }
+  /* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 7
+----------------------------------------------------------------------------------------------------------------- */
+  #sec7 #kart {
+    position: relative;
+    width: 130%;
+    border-radius: 15px;
+    height: 95%;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 0 10px;
+    width: 300px !important;
+  }
+  #sec7 #kart:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  #sec7 #kart .left {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100;
+    width: 95%;
+    background-color: #4198e1;
+    border-radius: 15px;
+  }
+  #sec7 #kart .left i {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  #sec7 #kart .left h5 {
+    font-size: 17px;
+    color: white;
+  }
+  #sec7 #kart .right {
+    position: relative;
+  }
+  #sec7 #kart .right a {
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 17px;
+    margin-bottom: 5px;
+    background-color: #4198e1;
+    border: none;
+    outline: none;
+  }
+  #sec7 #kart .right h5 {
+    font-weight: bold;
+    color: #3d3d3d;
+  }
+  #sec7 #kart .right p {
+    color: black;
+  }
+  /* --------------------------------------------------------------------------------------------------------------
+                                             S E C T I O N 8
+----------------------------------------------------------------------------------------------------------------- */
+  #sec8 .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #sec8 .form h1 {
+    color: black;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  #sec8 .form p {
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+  #sec8 .form input {
+    width: 25%;
+    padding: 3px 10px;
+    background-color: #e2e2e2;
+    border: none;
+    border: 1px solid silver;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+  }
+  #sec8 .form a {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #667eea;
+    padding: 13px 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
